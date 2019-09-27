@@ -1,3 +1,7 @@
+// This code is meant for the IMU,  to test only the acceleration capabilities of our FSAE vehicle.
+// Unfortunately the accelerometer, mounted to the chassis, has too high of a sensitivity and noise was introduced into the 
+// data as the vehicle vibrated.
+
 #include "IMU.h"
 #include "SDHelper.h"
 #include <stdlib.h>
