@@ -2,6 +2,9 @@
 // Unfortunately the accelerometer, mounted to the chassis, has too high of a sensitivity and noise was introduced into the 
 // data as the vehicle vibrated.
 
+// In the LSM9DS1 library, you can change the accelerometer's maximum recorded G, as well as some other settings.
+// Play around and see what works for you.
+
 #include "IMU.h"
 #include "SDHelper.h"
 #include <stdlib.h>
