@@ -1,3 +1,6 @@
+// This code is bugged, but the GPS is more accurate when using Cstring-style arrays rather than Arduino Strings.
+// Cannot use the IMU at the same time as the GPS, likely due to baudrate limitations and Cstring overhead.
+
 #include <TinyGPS++.h>
 #include "SDHelper.h"
 //#include "IMU.h"
