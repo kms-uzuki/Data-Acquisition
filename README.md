@@ -9,4 +9,6 @@ Using a series of breakout sensors and Arduinos, we can create an inexpensive da
 
 This code was created specifically for the [Copernicus II DIP](https://www.sparkfun.com/products/11858 "Copernicus II Breakout"),  the [LSM9DS1 IMU](https://www.sparkfun.com/products/13284 "LMS9DS1 Breakout"), and the [Level Shifting microSD](https://www.sparkfun.com/products/13743 "Level Shifter microSD Breakout") from Sparkfun Electronics. As a prerequisite, the [LSM9DS1 library](https://github.com/kms-uzuki/Data-Acquisition/tree/master/Libraries/SparkFun_LSM9DS1_Arduino_Library-master) and the [TinyGPS++ library](https://github.com/kms-uzuki/Data-Acquisition/tree/master/Libraries/TinyGPSPlus-master) should both be downloaded.
 
-![alt text](https://drive.google.com/file/d/1xnxNhI2zpmEoiA_tXiPLXsgNQvErXKz6/view?usp=sharing "Example data")
+![alt text](https://user-images.githubusercontent.com/33558268/66520067-50ed3a00-ea9d-11e9-969b-f9d5e404ecee.png "Example data")
+
+By taking a series of moving averages we can roughly estimate the vehicle's x-axis acceleration profile.
