@@ -14,6 +14,6 @@ This code was created specifically for the [Copernicus II DIP](https://www.spark
 
 By taking a series of moving averages we can roughly estimate the vehicle's x-axis acceleration profile. This needs to be optimized further, as the refresh rate is not quite high enough to accurately profile full-throttle vibrations at zero speed.
 
-![alt text](https://user-images.githubusercontent.com/33558268/66525288-dd055e80-eaa9-11e9-8b18-e69833222bbb.png "Example GPS data") "Example GPS data, plotted in Google Maps")
+![alt text](https://user-images.githubusercontent.com/33558268/66525288-dd055e80-eaa9-11e9-8b18-e69833222bbb.png "Example GPS data") 
 
 The GPS is hard-limited to 1Hz refresh rate, but the unobstructed velocity accuracy is to 0.06 m/s. 
